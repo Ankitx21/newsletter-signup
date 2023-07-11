@@ -36,7 +36,7 @@ app.post("/",function(req,res){  // apna data post krre server ko store karke ra
 
     const options = {  // posting the data to server with the help of api key
         method : "POST",
-        auth : "ankitx21:a16ed7103e990916b53ba286cabb10b-us21",
+        auth : "ankitx21:6a16ed7103e990916b53ba286cabb10b-us21",
     }
 
     const request = https.request(url,options,function(response){ 
